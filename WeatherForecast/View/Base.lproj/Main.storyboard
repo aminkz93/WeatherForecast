@@ -125,7 +125,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="120.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday Oct 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPm-gz-W83">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.031372549019607843" green="0.12549019607843137" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -180,7 +180,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="120.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday Oct 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuH-vp-rIg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.031372549020000001" green="0.12549019610000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -235,7 +235,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="120.66666666666667"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday Oct 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebr-Vd-LTn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108.33333333333333"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.031372549020000001" green="0.12549019610000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -287,7 +287,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="120.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday Oct 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cl2-LS-ww9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.031372549020000001" green="0.12549019610000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -339,7 +339,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="120.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday Oct 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR8-nb-O6x">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.031372549020000001" green="0.12549019610000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -624,7 +624,7 @@
                                                 </constraints>
                                                 <color key="textColor" red="0.94145387410000003" green="0.73609834910000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="search" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -659,7 +659,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="bXB-L4-9pT" id="Yr8-NK-pbB"/>
                         <outlet property="passwordTextField" destination="IeU-MR-tkx" id="6Ks-gB-zTt"/>
-                        <segue destination="e0F-Gz-QXl" kind="show" identifier="RegisterToMain" id="vjg-yP-YV8"/>
+                        <segue destination="e0F-Gz-QXl" kind="show" identifier="registerToMain" id="vjg-yP-YV8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAx-86-pfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

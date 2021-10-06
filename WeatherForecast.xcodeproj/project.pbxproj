@@ -19,10 +19,10 @@
 		275A68AF270D100C007BDE76 /* FiveDayForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A68AE270D100C007BDE76 /* FiveDayForecastViewController.swift */; };
 		27860862270E2B7B003E81A5 /* HourlyDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27860861270E2B7A003E81A5 /* HourlyDisplayViewController.swift */; };
 		279545DE270E65A100C354F1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 279545DD270E65A100C354F1 /* IQKeyboardManagerSwift */; };
-		27B3B155270E5E7D00BAE7AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B3B154270E5E7D00BAE7AA /* GoogleService-Info.plist */; };
 		27D32040270E5AAB00DC840F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3203F270E5AAB00DC840F /* WelcomeViewController.swift */; };
 		27D32043270E5AC100DC840F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D32042270E5AC100DC840F /* RegisterViewController.swift */; };
 		27D32046270E5AE800DC840F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D32045270E5AE800DC840F /* LoginViewController.swift */; };
+		27EF0115270E6E3400F542B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27EF0114270E6E3400F542B2 /* GoogleService-Info.plist */; };
 		33D18DFBDF135A791880879F /* Pods_WeatherForecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C516A09D218D662E7393FF10 /* Pods_WeatherForecast.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +40,10 @@
 		275A68AB270C948A007BDE76 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		275A68AE270D100C007BDE76 /* FiveDayForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayForecastViewController.swift; sourceTree = "<group>"; };
 		27860861270E2B7A003E81A5 /* HourlyDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyDisplayViewController.swift; sourceTree = "<group>"; };
-		27B3B154270E5E7D00BAE7AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		27D3203F270E5AAB00DC840F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		27D32042270E5AC100DC840F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		27D32045270E5AE800DC840F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27EF0114270E6E3400F542B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		542E4713475BBD2D13ED86D4 /* Pods-WeatherForecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForecast.release.xcconfig"; path = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast.release.xcconfig"; sourceTree = "<group>"; };
 		C516A09D218D662E7393FF10 /* Pods_WeatherForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29ACD13D380BE0FF5C8AC0E /* Pods-WeatherForecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForecast.debug.xcconfig"; path = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				272AF35C270B8C9200B9A1FE /* Assets.xcassets */,
 				272AF35E270B8C9200B9A1FE /* LaunchScreen.storyboard */,
 				272AF361270B8C9200B9A1FE /* Info.plist */,
-				27B3B154270E5E7D00BAE7AA /* GoogleService-Info.plist */,
+				27EF0114270E6E3400F542B2 /* GoogleService-Info.plist */,
 			);
 			path = WeatherForecast;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272AF360270B8C9200B9A1FE /* LaunchScreen.storyboard in Resources */,
-				27B3B155270E5E7D00BAE7AA /* GoogleService-Info.plist in Resources */,
+				27EF0115270E6E3400F542B2 /* GoogleService-Info.plist in Resources */,
 				272AF35D270B8C9200B9A1FE /* Assets.xcassets in Resources */,
 				272AF35B270B8C8E00B9A1FE /* Main.storyboard in Resources */,
 			);
