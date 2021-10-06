@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,17 @@
 		272AF35B270B8C8E00B9A1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272AF359270B8C8E00B9A1FE /* Main.storyboard */; };
 		272AF35D270B8C9200B9A1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272AF35C270B8C9200B9A1FE /* Assets.xcassets */; };
 		272AF360270B8C9200B9A1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272AF35E270B8C9200B9A1FE /* LaunchScreen.storyboard */; };
+		275A68A3270BF9E4007BDE76 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A68A2270BF9E4007BDE76 /* WeatherData.swift */; };
+		275A68A6270BFAA0007BDE76 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A68A5270BFAA0007BDE76 /* WeatherManager.swift */; };
+		275A68AC270C948A007BDE76 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A68AB270C948A007BDE76 /* WeatherModel.swift */; };
+		275A68AF270D100C007BDE76 /* FiveDayForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A68AE270D100C007BDE76 /* FiveDayForecastViewController.swift */; };
+		27860862270E2B7B003E81A5 /* HourlyDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27860861270E2B7A003E81A5 /* HourlyDisplayViewController.swift */; };
+		279545DE270E65A100C354F1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 279545DD270E65A100C354F1 /* IQKeyboardManagerSwift */; };
+		27B3B155270E5E7D00BAE7AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27B3B154270E5E7D00BAE7AA /* GoogleService-Info.plist */; };
+		27D32040270E5AAB00DC840F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3203F270E5AAB00DC840F /* WelcomeViewController.swift */; };
+		27D32043270E5AC100DC840F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D32042270E5AC100DC840F /* RegisterViewController.swift */; };
+		27D32046270E5AE800DC840F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D32045270E5AE800DC840F /* LoginViewController.swift */; };
+		33D18DFBDF135A791880879F /* Pods_WeatherForecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C516A09D218D662E7393FF10 /* Pods_WeatherForecast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,18 @@
 		272AF35C270B8C9200B9A1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272AF35F270B8C9200B9A1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		272AF361270B8C9200B9A1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275A68A2270BF9E4007BDE76 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		275A68A5270BFAA0007BDE76 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		275A68AB270C948A007BDE76 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		275A68AE270D100C007BDE76 /* FiveDayForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayForecastViewController.swift; sourceTree = "<group>"; };
+		27860861270E2B7A003E81A5 /* HourlyDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyDisplayViewController.swift; sourceTree = "<group>"; };
+		27B3B154270E5E7D00BAE7AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27D3203F270E5AAB00DC840F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		27D32042270E5AC100DC840F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		27D32045270E5AE800DC840F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		542E4713475BBD2D13ED86D4 /* Pods-WeatherForecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForecast.release.xcconfig"; path = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast.release.xcconfig"; sourceTree = "<group>"; };
+		C516A09D218D662E7393FF10 /* Pods_WeatherForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29ACD13D380BE0FF5C8AC0E /* Pods-WeatherForecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherForecast.debug.xcconfig"; path = "Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D18DFBDF135A791880879F /* Pods_WeatherForecast.framework in Frameworks */,
+				279545DE270E65A100C354F1 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151F07F8490FC527A071BE50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C516A09D218D662E7393FF10 /* Pods_WeatherForecast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26CF20B3DC8568794F069A95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29ACD13D380BE0FF5C8AC0E /* Pods-WeatherForecast.debug.xcconfig */,
+				542E4713475BBD2D13ED86D4 /* Pods-WeatherForecast.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		272AF347270B8C8E00B9A1FE = {
 			isa = PBXGroup;
 			children = (
 				272AF352270B8C8E00B9A1FE /* WeatherForecast */,
 				272AF351270B8C8E00B9A1FE /* Products */,
+				26CF20B3DC8568794F069A95 /* Pods */,
+				151F07F8490FC527A071BE50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,48 @@
 		272AF352270B8C8E00B9A1FE /* WeatherForecast */ = {
 			isa = PBXGroup;
 			children = (
+				272AF36A270B8CB500B9A1FE /* Controller */,
+				272AF369270B8CAD00B9A1FE /* View */,
+				272AF368270B8CA600B9A1FE /* Model */,
 				272AF353270B8C8E00B9A1FE /* AppDelegate.swift */,
 				272AF355270B8C8E00B9A1FE /* SceneDelegate.swift */,
-				272AF357270B8C8E00B9A1FE /* ViewController.swift */,
-				272AF359270B8C8E00B9A1FE /* Main.storyboard */,
 				272AF35C270B8C9200B9A1FE /* Assets.xcassets */,
 				272AF35E270B8C9200B9A1FE /* LaunchScreen.storyboard */,
 				272AF361270B8C9200B9A1FE /* Info.plist */,
+				27B3B154270E5E7D00BAE7AA /* GoogleService-Info.plist */,
 			);
 			path = WeatherForecast;
+			sourceTree = "<group>";
+		};
+		272AF368270B8CA600B9A1FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				275A68A2270BF9E4007BDE76 /* WeatherData.swift */,
+				275A68A5270BFAA0007BDE76 /* WeatherManager.swift */,
+				275A68AB270C948A007BDE76 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		272AF369270B8CAD00B9A1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				272AF359270B8C8E00B9A1FE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		272AF36A270B8CB500B9A1FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				272AF357270B8C8E00B9A1FE /* ViewController.swift */,
+				275A68AE270D100C007BDE76 /* FiveDayForecastViewController.swift */,
+				27860861270E2B7A003E81A5 /* HourlyDisplayViewController.swift */,
+				27D3203F270E5AAB00DC840F /* WelcomeViewController.swift */,
+				27D32042270E5AC100DC840F /* RegisterViewController.swift */,
+				27D32045270E5AE800DC840F /* LoginViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +151,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272AF364270B8C9200B9A1FE /* Build configuration list for PBXNativeTarget "WeatherForecast" */;
 			buildPhases = (
+				3E5A8EC2E78C959B6F39716E /* [CP] Check Pods Manifest.lock */,
 				272AF34C270B8C8E00B9A1FE /* Sources */,
 				272AF34D270B8C8E00B9A1FE /* Frameworks */,
 				272AF34E270B8C8E00B9A1FE /* Resources */,
+				FB18C1425042F80172BA4ADA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WeatherForecast;
+			packageProductDependencies = (
+				279545DD270E65A100C354F1 /* IQKeyboardManagerSwift */,
+			);
 			productName = WeatherForecast;
 			productReference = 272AF350270B8C8E00B9A1FE /* WeatherForecast.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 272AF347270B8C8E00B9A1FE;
+			packageReferences = (
+				279545DC270E65A100C354F1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 272AF351270B8C8E00B9A1FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272AF360270B8C9200B9A1FE /* LaunchScreen.storyboard in Resources */,
+				27B3B155270E5E7D00BAE7AA /* GoogleService-Info.plist in Resources */,
 				272AF35D270B8C9200B9A1FE /* Assets.xcassets in Resources */,
 				272AF35B270B8C8E00B9A1FE /* Main.storyboard in Resources */,
 			);
@@ -132,14 +218,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E5A8EC2E78C959B6F39716E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherForecast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB18C1425042F80172BA4ADA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherForecast/Pods-WeatherForecast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		272AF34C270B8C8E00B9A1FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D32040270E5AAB00DC840F /* WelcomeViewController.swift in Sources */,
+				27D32043270E5AC100DC840F /* RegisterViewController.swift in Sources */,
 				272AF358270B8C8E00B9A1FE /* ViewController.swift in Sources */,
+				275A68AF270D100C007BDE76 /* FiveDayForecastViewController.swift in Sources */,
 				272AF354270B8C8E00B9A1FE /* AppDelegate.swift in Sources */,
+				275A68A6270BFAA0007BDE76 /* WeatherManager.swift in Sources */,
+				27860862270E2B7B003E81A5 /* HourlyDisplayViewController.swift in Sources */,
+				275A68A3270BF9E4007BDE76 /* WeatherData.swift in Sources */,
+				275A68AC270C948A007BDE76 /* WeatherModel.swift in Sources */,
 				272AF356270B8C8E00B9A1FE /* SceneDelegate.swift in Sources */,
+				27D32046270E5AE800DC840F /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +419,7 @@
 		};
 		272AF365270B8C9200B9A1FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29ACD13D380BE0FF5C8AC0E /* Pods-WeatherForecast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +439,7 @@
 		};
 		272AF366270B8C9200B9A1FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542E4713475BBD2D13ED86D4 /* Pods-WeatherForecast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +479,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		279545DC270E65A100C354F1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		279545DD270E65A100C354F1 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 279545DC270E65A100C354F1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 272AF348270B8C8E00B9A1FE /* Project object */;
 }
