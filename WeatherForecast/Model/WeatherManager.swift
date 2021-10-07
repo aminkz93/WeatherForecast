@@ -22,9 +22,9 @@ struct WeatherManager {
         getCoordinate(addressString: cityName, completionHandler: { (coordinate, error) in
             
             if error != nil{
-                print("Error in getting coordinate \(error)")
+//                print("Error in getting coordinate \(error)")
             } else {
-                print("retrieved successfully")
+//                print("retrieved successfully")
                 let latitude = coordinate.latitude
                 let longtitude = coordinate.longitude
                 let urlString = "\(weatherURL)&lat=\(latitude)&lon=\(longtitude)"
@@ -37,7 +37,7 @@ struct WeatherManager {
         
         let urlString = "\(weatherURL)&lat=\(latitude)&lon=\(longtitude)"
         performRequest(with: urlString)
-        print("perform url request sent")
+//        print("perform url request sent")
         
     }
     
@@ -51,7 +51,7 @@ struct WeatherManager {
                 }
                 if let safeData = data {
                     if let weather = self.parseJSON(safeData){
-                        print("data fetchd and delegate gonna get called")
+//                        print("data fetchd and delegate gonna get called")
                         delegate?.didUpdateWeather(self, weather: weather)
                         
 //                                                for day in weather{
@@ -69,9 +69,7 @@ struct WeatherManager {
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(WeatherData.self, from: weatherData)
-            print("----------------------------------")
-            print(decodedData.hourly)
-            print("----------------------------------")
+           
 
             var weatherModels = [WeatherModel]()
             
@@ -84,18 +82,12 @@ struct WeatherManager {
             for hour in 0...23 {
                 hourly.append(decodedData.hourly[hour].temp)
             }
-            print("----------------------------------")
-            print(hourly)
-            print("----------------------------------")
             weatherModels[0].hourlyData = hourly
             
             hourly.removeAll()
             for hour in 24...47 {
                 hourly.append(decodedData.hourly[hour].temp)
             }
-            print("----------------------------------")
-            print(hourly)
-            print("----------------------------------")
             weatherModels[1].hourlyData = hourly
             
             return weatherModels
